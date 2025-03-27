@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-
+    namespace 'com.wilson0212tw.image_gallery_saver' // 兼容 gradle 8+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
